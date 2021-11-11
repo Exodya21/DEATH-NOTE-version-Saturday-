@@ -1,0 +1,54 @@
+
+.button {
+  background-color: transparent;
+  border: none;
+
+  display: flex;
+  text-align: center;
+  color:white;
+  font-size: 2em;
+  font-family: var(--fonts_DN);
+}
+.buttonFooter {
+    position: absolute;
+    bottom: 10%;
+}
+.buttonFooter button {
+  background-color: transparent;
+  border: none;
+
+  color: white;
+  font-size: 2em;
+  font-family: var(--fonts_DN);
+}
+.volvermenucruz{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 300px;
+}
+.volvermenucruz :hover {
+  background-color: rgb(70, 65, 65);
+  border-radius: 5px;
+}
+
+@media screen and (min-height: 1024px) {
+  .button{
+    font-size: 1.8em;
+  }
+  .buttonFooter {
+    font-size: 1.4em;
+    bottom: 20%;
+  }
+}
+@media screen and (min-height: 1366px) {
+  .button {
+    font-size: 3em;
+  }
+  
+  .buttonFooter {
+    font-size: 2.2em;
+  }
+}

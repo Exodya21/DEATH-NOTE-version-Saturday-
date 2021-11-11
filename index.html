@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>Death Note</title>
+  </head>
+  <body>
+
+    <div id="popup" class="container-popup">
+      <article class="poup">
+        <img
+          src="img\x_cross_delete_remove_icon_144023.svg"
+          onclick="cerrar('popup', 'inicio')"
+          class="cruzcerrar"
+          alt=""
+          srcset=""
+        />
+        <ul id="impresionarray" style="text-transform: uppercase;"></ul>
+        <section class="input-buton">
+          <input type="text" id="inputnombres" class="inputNames" style="text-transform: uppercase;" value="NADIE" placeholder="victima" />
+          <div>
+            <button id = 'update' class="actualizarBtn" onclick="reNombrar(inputnombres.value)">UpDate</button>
+            <button id="sub" class="button-enviar" onclick="pushnames(inputnombres.value)">
+              Escribir
+            </button>
+          </div>
+        </section>
+      </article>
+    </div>
+
+    <div class="containerIndex">
+      <article id="inicio" class="containerButton">
+        <button class="button" onclick="abrir('popup', 'inicio')">JOIN PLAYERS</button>
+        <a class="buttonFooter" ><button onclick="start()" >PRUEBA TU SUERTE</button></a>
+      </article>
+      <div class="audio-section">
+        <audio id="mysong">
+          <source src="audio/song.wav" type="audio/wav" />
+        </audio>
+        <div class="pauseplay">
+          <img src="img/play.png" class="img" id="icon" />
+        </div>
+      </div>
+    </div>
+
+    <div class="containerDN" id="containerDN">
+      <div class="divfecha" id="fecha">
+      </div>
+      <a class="volvermenucruz" onclick="resetAndClose()"><img src="img\x_cross_delete_remove_icon_144023.svg"  alt="" srcset=""></a> 
+      <article class="hoja">
+        <section class="texto">
+          <p class ="causaMuerte" id ="causaMortal">
+          </p>
+          <div class="divnamefecha">
+            <p class="nombre" id="victima"></p>
+            <p id="victimafecha"></p>
+          </div>
+        </section>
+        <section class="flexPluma">
+          <div class="pluma"></div>
+        </section>
+      </article>
+    </div>
+
+    
+    <script src="js\main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+.containerDN {
+  display: flex;
+  justify-content: center;
+}
+
+.hoja {
+  background-image: url(../../../img/hojapapel\ 2.png);
+  background-size: 98%;
+  width: 98%;
+  height: 98vh;
+  background-repeat: no-repeat;
+  background-position: top;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.pluma {
+  background-image: url(../../../img/plumafinal\ 1.png);
+  width: 250px;
+  height: 55vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.flexPluma {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 70px;
+}
+
+@media screen and (min-width: 769px) {
+  .hoja {
+    background-size:36%;
+  }
+ }
+
+ @media screen and (min-width: 800px) {
+  .hoja {
+    background-size: 60%;
+  }
+ }
+
+ @media screen and (min-width: 1025px) {
+  .hoja {
+    background-size: 33%;
+  }
+ }
+
+ @media screen and (min-width: 1200px) {
+  .hoja {
+    background-size: 28%;
+  }
+ }
+
+ /* /////////////////////////////////////////////// */
+
+ @media screen and (min-width: 769px) {
+  body {
+    background-size:38%;
+  }
+ }
+
+ @media screen and (min-width: 800px) {
+  body {
+    background-size: 62%;
+  }
+ }
+
+ @media screen and (min-width: 1025px) {
+  body {
+    background-size: 35%;
+  }
+ }
+
+ @media screen and (min-width: 1200px) {
+  body {
+    background-size: 30%;
+  }
+ }

@@ -1,0 +1,67 @@
+
+.input-buton {
+  position: absolute;
+  bottom: 14%;
+  margin: 0 5% 0 5%;
+  border: 0px;
+  display: flex;
+
+}
+.container-popup {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.poup li{
+  color: black;
+  display: flex;
+}
+.poup ul{
+  font-size: 25px;
+  width: 70%;
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+
+}
+.delete {
+  color: red;
+  background: transparent;
+  border: none;
+}
+
+.cruzcerrar{
+  display: flex;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 240px;
+}
+.btnname{
+  background-color: transparent;
+  border: none;
+  font-family: var(--fonts_DN);
+  font-size: 25px;
+}
+
+.actualizarBtn{
+  display: none;
+}
+
+.button-enviar{
+  display: flex;
+}
+
+@media screen and (min-width: 460px) {
+ .poup li{
+  margin-left: 100px;
+ }
+}
+
+@media screen and (min-width: 1024px) {
+  .poup li{
+   margin-left: 150px;
+  }
+ }

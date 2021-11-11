@@ -1,0 +1,23 @@
+.containerIndex {
+  justify-content: center;
+  display: flex;
+}
+.containerButton {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 37%;
+  flex-direction: column;
+  align-items: center;
+}
+.audio-section {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  bottom: 1.5%;
+}
+.img {
+  width: 40px;
+}
