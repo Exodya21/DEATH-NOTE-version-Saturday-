@@ -1,4 +1,4 @@
-let names = ['JAUME','DIEGO','LUCAS','ANTHONY','ALEXIS','CARLOS'];
+let names = ['JAUME','DIEGO','LUCAS','ANTHONY','ALEXIS','CARLOS','NADIE'];
 let causas = [
   "DESAFIO: TOQUES CON LA PALA DE PING PONG.",
   "DESAFIO: LANZAMIENTO DE BOLAS DE PING PONG.",
@@ -135,7 +135,7 @@ function imprimirEnHoja() {
 // Funcion restablecer Arrays
 function resetAndClose() {
   cerrar("containerDN", "inicio");
-  names = ['JAUME','DIEGO','LUCAS','ANTHONY','ALEXIS','CARLOS'];
+  names = ['JAUME','DIEGO','LUCAS','ANTHONY','ALEXIS','CARLOS','NADIE'];
   causas = [
     "DESAFIO: TOQUES CON LA PALA DE PING PONG.",
     "DESAFIO: LANZAMIENTO DE BOLAS DE PING PONG.",
